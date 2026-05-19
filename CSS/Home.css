@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nexa Light', sans-serif;
+}
+
+
+    @font-face {
+    font-family: 'Nexa Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Nexa Light'), url('NexaLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Nexa Bold'), url('NexaBold.woff') format('woff');
+    }
+
+header{
+    padding: 2vh;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/image/BACKGROUND\ copiar\ AMD-2.jpg.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+       
+    
+}
+
+header #content{
+    
+    margin: auto;
+    padding: 16px;
+    margin-top: 2vh;
+    margin-left: 8vh;
+    width: 90%;
+    height: 10vh;
+    border-radius: 45px;
+    background-color: #2e425ad2;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+    position: fixed;
+}
+
+header img{
+    margin-left: 6vh;
+    width: 9vh;
+    height: 9vh;
+    border-radius: 100%;
+    background-color: coral;
+    border: solid 2px #4ADEDE;
+    
+}
+
+header ul{
+
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    align-content: space-between;
+    font-size: 2.6vh;
+   
+    
+    
+   
+}
+
+header li{
+    list-style: none;
+    margin-left: 34px;
+    text-decoration: none;
+    
+}
+
+header li a:hover{
+    
+    color: #4ADEDE;
+    border-bottom: solid 2px white;
+    text-transform: 1.1s;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header #BTN{
+   margin-right: 3vh;
+   padding: 1.4vh;
+   border-radius: 20px;
+   background-color: white;
+   color: #000;
+}
+
+header #BTN:hover{
+
+     background-color: rgba(255, 255, 255, 0.247);
+     color: white;
+        
+    
+}
+
+header #content-2{
+    margin-top: 25vh;
+    width: 120hv;
+    margin-left: 14vh;
+   /* background-color: antiquewhite;*/
+   
+}
+
+header h1{
+    margin-top: 10vh;
+    width: 70vh;
+    height: 18vh;
+   /* background-color: brown;*/
+    font-size: 5vh;
+    color: #4ADEDE;
+    font-family: 'Nexa Bold';
+}
+
+header h1 strong{
+    color: #4ADEDE;
+}
+
+header h2{
+
+    width: 70vh;
+    height: 14vh;
+    color: white;
+  /*  background-color: blanchedalmond;*/
+
+}
+
+header p{
+    margin-top: 1vh;
+    margin-left: 2vh;
+    text-align: center;
+    color: #4ADEDE;
+    font-size: 2vh;
+    /*background-color: brown;*/
+}
+
+
+header #datalhe strong{
+    color: white;
+}
+
+header #datalhe{
+    width: 90vh;
+    display: flex;
+    align-items: center;
+   /* background-color: blanchedalmond;*/
+}
+
+header #BTN2{
+    text-align: center;
+    margin-top: 2vh;
+    padding: 2vh;
+    width: 22vh;
+    font-size: 2.4vh;
+    border-radius: 3vh;
+    background-color: white;
+    color: #000;
+}
+
+header #BTN2:hover{
+
+     background-color: rgba(255, 255, 255, 0.247);
+     color: white;
+        
+    
+}
+
+header #content-3{
+    
+    margin: auto;
+    margin-top: 26vh;
+    width: 88%;
+    height: 10vh;
+    border-radius: 45px;
+    background-color: #354463;
+    color: white;
+    text-align: center;
+    
+}
+
+#content-3 {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 2vh;
+    background: #0a2a66; /* fundo azul escuro */
+  }
+
+  .carousel-track {
+    display: flex;
+    width: max-content; /* ajusta ao conteúdo */
+    animation: scroll 40s linear infinite;
+  }
+
+  .carousel-track img {
+    height: 60px;
+    margin: 0 50px;
+    
+  }
+.carousel-track img {
+     width: 7vh;
+    height: 7vh;
+    border-radius: 3vh;
+  }
+
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+main{
+    width: 100%;
+}
+
+#conteiner-1{
+    width: 100%;
+    height: 100%;
+    padding: 20vh;
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#conteiner-1-content{
+    width: 70vh;
+    height: 70vh;
+    margin-right: 22vh;
+    /*background-color: blue;*/
+    
+   
+}
+
+#conteiner-1-content h2{
+    width: 28vh;
+    padding: 1vh;
+    text-align: center;
+    border: solid 2px #354463;
+    border-radius: 12vh;
+    color: #354463;
+   
+}
+
+
+#conteiner-1-content h1{
+    width: 70vh;
+    margin-top: 5vh;
+    padding: 1vh;
+    text-align: center;
+    font-size: 6vh;
+    color: #354463;
+    
+   
+}
+
+#conteiner-1-content p{
+    width: 70vh;
+    margin-top: 1vh;
+    padding: 1vh;
+    font-size: 3vh;
+    text-align: justify;
+    color: gray;
+   
+}
+
+#fotodescri{
+
+    width: 600vh;
+    height: 84vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    /*background-color: cornflowerblue;*/
+}
+
+#foto{
+    width: 60vh;
+    height: 65vh;
+}
+
+#fotodescri p{
+
+    width: 100%;
+    height: 18vh;
+    padding: 2vh;
+    border-radius: 12px;
+    background-color: #354463;
+    font-size: 2vh;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#fotodescri p strong{
+
+    
+    color: #4ADEDE;
+    font-family: 'nexo';
+}
+
+#local{
+    margin-top: 2vh;
+    width: 70vh;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    border-radius: 12vh;
+    padding: 6vh;      
+   background-color: rgba(220, 220, 220, 0.63);
+}
+
+
+
+
+#local img{
+    width: 8vh;
+    height: 8vh;
+    margin-right: 2vh;
+   padding: 2vh;
+    border-radius: 3vh;
+    background-color: white;
+}
+
+#local p{
+    font-size: 2vh;
+}
+#local p strong{
+    color: #000;
+}

@@ -206,17 +206,30 @@ header #content-3{
     display: flex;
     width: max-content; /* ajusta ao conteúdo */
     animation: scroll 40s linear infinite;
+    
   }
 
-  .carousel-track img {
+  .carousel-track h1 {
     height: 60px;
     margin: 0 50px;
     
+    
   }
-.carousel-track img {
-     width: 7vh;
-    height: 7vh;
+.carousel-track h1 {
+     width: 20vh;
+    height: 4vh;
     border-radius: 3vh;
+  }
+
+  .carousel-track h1 {
+     font-size: 2vh;
+     display: flex;
+     align-items: center;
+     padding: 3vh;
+     background-color: white;
+     text-align: center;
+     color: #000;
+
   }
 
 
@@ -281,39 +294,7 @@ main{
    
 }
 
-#fotodescri{
 
-    width: 600vh;
-    height: 84vh;
-    margin-top: 5vh;
-    display: flex;
-    flex-direction: column;
-    /*background-color: cornflowerblue;*/
-}
-
-#foto{
-    width: 60vh;
-    height: 65vh;
-}
-
-#fotodescri p{
-
-    width: 100%;
-    height: 18vh;
-    padding: 2vh;
-    border-radius: 12px;
-    background-color: #354463;
-    font-size: 2vh;
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.705);
-}
-
-#fotodescri p strong{
-
-    
-    color: #4ADEDE;
-    font-family: 'nexo';
-}
 
 #local{
     margin-top: 2vh;
@@ -343,4 +324,29 @@ main{
 }
 #local p strong{
     color: #000;
+}
+
+
+.carousel {
+  
+  width: 60vh;
+  height: 84vh;
+  margin: auto;
+  overflow: hidden;
+ 
+}
+
+.carousel-item {
+  display: none;
+  text-align: center;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel img {
+    margin-top: 9vh;
+  max-width: 100%;
+  height: auto;
 }

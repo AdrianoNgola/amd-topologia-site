@@ -25,7 +25,7 @@ header{
     padding: 2vh;
     width: 100%;
     height: 100vh;
-    background-image: url("/BACKGROUND.jpeg");
+    background-image: url("BACKGROUND.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
        

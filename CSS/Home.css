@@ -157,6 +157,7 @@ header #datalhe strong{
 }
 
 header #datalhe{
+    margin-top: 2vh;
     width: 90vh;
     display: flex;
     align-items: center;
